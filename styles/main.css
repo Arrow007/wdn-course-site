@@ -1,0 +1,35 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2E384D;
+    background-color: #dee0e6;
+    margin:50px 400px;
+}
+
+header {
+    font-size: 14px;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2E384D;
+}
+
+nav li {
+    padding: 20px;
+}
+
+nav li:hover {
+    background-color: #ffa822;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 4px;
+}
