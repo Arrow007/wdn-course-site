@@ -20,7 +20,7 @@ nav a {
 }
 
 nav li {
-	padding: 20px;
+	cursor: pointer;
 }
 
 nav li:hover {
@@ -29,7 +29,13 @@ nav li:hover {
 	transition: 0.2s;
 }
 
-.container {
+nav {
 	background-color: #fff;
 	border-radius: 4px;
+}
+
+li a {
+	padding: 20px;
+	display: block;
+	height: 200%;
 }

@@ -1,0 +1,26 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.to-main {
+	font-size: 1em;
+	padding: 1em;
+	margin-top: 0.5em;
+	border: 0.1em solid gray;
+	border-radius: 0.5em;
+	background-color: skyblue;
+	transition: background-color 0.2s;
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+}
+
+.to-main:hover {
+	background-color: cadetblue;
+}
