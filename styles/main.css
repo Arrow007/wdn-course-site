@@ -9,27 +9,27 @@ header {
     font-size: 14px;
 }
 
-nav ul {
+.main_nav ul {
     list-style: none;
     padding-left: 0;
 }
 
-nav a {
+.main_nav a {
     text-decoration: none;
     color: #2E384D;
 }
 
-nav li {
+.main_nav li {
     padding: 20px;
 }
 
-nav li:hover {
+.main_nav li:hover {
     background-color: #ffa822;
     color: #fff;
     transition: 0.2s;
 }
 
-.container {
+.main_nav {
     background-color: #fff;
     border-radius: 4px;
 }
