@@ -5,11 +5,16 @@
     list-style: none;
 }
 
+html {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     color: rgba(0, 0, 0, .8);
     background: linear-gradient(45deg, #feac5e, #c779d0, #4bc0c8);
     background-size: 400%;
+    background-repeat: repeat;
     animation: gradient 20s ease infinite;
 }
 
@@ -117,14 +122,29 @@ h1 {
 
 .profile-btn {
     width: 30%;
-    background-color: rgba(255, 255, 255, .5);
-    border: none;
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, .5);
+    border-width: .2em;
+    border-style: solid;
     border-radius: 1rem;
     padding: .2rem;
-    font-size: ..7rem;
+    margin: .2rem;
+    font-size: 0.7rem;
     font-weight: 600;
+    color: rgba(255, 255, 255, .95);
     text-transform: uppercase;
+    transition: .5s ease-in-out;
+
 }
+
+.profile-btn:hover {
+
+    background-color: rgba(255, 255, 255, .37);
+    border: .2em solid rgba(255, 255, 255, 0.5);
+    color: white;
+}
+
+
 
 .skills {
     background: rgba(255, 255, 255, .1);
