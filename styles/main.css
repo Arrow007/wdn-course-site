@@ -70,7 +70,7 @@ h1 {
 
 .navbar-nav li a:hover {
     background-color: #445270;
-    transition: 0.2s;
+    transition: 0.1s;
 }
 
 .navbar-nav li a:active {
@@ -133,8 +133,7 @@ h1 {
     font-weight: 600;
     color: rgba(255, 255, 255, .95);
     text-transform: uppercase;
-    transition: .5s ease-in-out;
-
+    transition: .3s ease-in-out;
 }
 
 .profile-btn:hover {
@@ -142,6 +141,13 @@ h1 {
     background-color: rgba(255, 255, 255, .37);
     border: .2em solid rgba(255, 255, 255, 0.5);
     color: white;
+}
+
+.profile-btn:active {
+    /* cursor: pointer;
+    transform: scale(1.1); */
+    box-shadow: 0 0 9px rgba(255, 255, 255, .5);
+    cursor: pointer;
 }
 
 
