@@ -1,3 +1,14 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2E384D;
+    background-color: #dee0e6;
+    margin: 50px 400px;
+}
+
+header {
+    font-size: 14px;
+}
+
 table,
 th,
 td {
