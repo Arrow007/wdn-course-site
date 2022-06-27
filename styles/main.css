@@ -40,6 +40,20 @@ button {
 }
 
 /* main nav bar styling  */
+#mainNavbar.navbar {
+    background-color: rgba(255, 255, 255, 0.45);
+
+}
+
+#mainNavbar.navbar.scrolled {
+    background-color: rgba(255, 255, 255, 0.90);
+    transition: background .6s;
+}
+
+.bannerArea {
+    margin-top: 4rem;
+    padding: 1rem;
+}
 
 /* profile card grid  */
 .wrapper-grid {

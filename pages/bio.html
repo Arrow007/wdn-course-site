@@ -18,18 +18,20 @@
 
     <body>
         <header>
-            <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+            <nav id="mainNavbar" class="navbar navbar-expand-sm navbar-light fixed-top">
                 <a class="navbar-brand" href="#">WDN</a>
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navExpand">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navExpand">
+                    <!-- Main Nav Links -->
                     <div class="navbar-nav ml-auto">
                         <a href="/index.html" class="nav-item nav-link">Home</a>
                         <a href="/pages/progress-goals.html" class="nav-item nav-link">Goals</a>
                         <a href="/pages/deploy.html" class="nav-item nav-link">Deploy</a>
                         <a href="/pages/tips.html" class="nav-item nav-link">Tips</a>
                         <a href="/pages/bio.html" class="nav-item nav-link">Bio</a>
+                        <!-- Social Icons -->
                         <div class="container">
                             <div class="row">
                                 <a href="https://github.com/Arrow007/course-site" class="nav-item nav-link"><svg
@@ -279,6 +281,14 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
             integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
             crossorigin="anonymous"></script>
+        <script>
+            $(function () {
+                $(document).scroll(function () {
+                    var $nav = $("#mainNavbar");
+                    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+                });
+            });
+        </script>
     </body>
 
 </html>
